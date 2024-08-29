@@ -9,7 +9,7 @@
 size_t print_dlistint(const dlistint_t *h)
 {
 	size_t count = 0;
-	const dlinkint_t *buf;
+	const dlistint_t *buf;
 
 	buf = h;
 	while (buf != NULL)
